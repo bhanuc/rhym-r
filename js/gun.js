@@ -1,6 +1,6 @@
 $(document).ready(function() {
 		
-	$("#leadForm").on("submit", function(e) {
+	$("#leadForm").on("click", function(e) {
 		e.preventDefault();
 
 		console.log("Handling the submit");
