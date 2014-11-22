@@ -1,19 +1,4 @@
-$(document).ready(function() {
-		
-	$("#leadForm").on("click", function(e) {
-		e.preventDefault();
 
-		console.log("Handling the submit");
-		//add error handling here
-		//gather the form data
-		var data = {};
-		data.name = $("#name").val();
-		data.email = $("#email").val();
-		data.area = $("#mobno").val();
-		data.query = $("#query").val();
-	});
-	
-});
 
 /* global $,document,console,Parse */
 $(document).ready(function() {
@@ -24,7 +9,7 @@ $(document).ready(function() {
 	Parse.initialize(parseAPPID, parseJSID);
 	var CommentObject = Parse.Object.extend("CommentObject");
 	
-	$("#commentForm").on("submit", function(e) {
+	$("#leadForm").on("click", function(e) {
 		e.preventDefault();
 
 		console.log("Handling the submit");
