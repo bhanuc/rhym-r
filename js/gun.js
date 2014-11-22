@@ -19,7 +19,7 @@ $(document).ready(function() {
 		var data = {};
 		data.name = $("#name").val();
 		data.email = $("#email").val();
-		data.area = $("#mobno").val();
+		data.mobno = $("#mobno").val();
 		data.query = $("#query").val();
 
 		var comment = new CommentObject();

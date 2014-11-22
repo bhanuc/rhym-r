@@ -156,33 +156,33 @@
  
               <div class="row">
                 <div class="large-12 column">
-                         <form>
+<form>
           <div class="row">
             <div class="large-12 columns">
               <label>Name</label>
-              <input type="text" placeholder="Enter your Name" />
+              <input type="text" placeholder="Enter your Name" id="name" />
             </div>
           </div>
           <div class="row">
             <div class="large-12 columns">
               <label>Email</label>
-              <input type="text" placeholder="Enter Your Email" />
+              <input type="text" placeholder="Enter Your Email" id="email" />
             </div>
           </div>
           <div class="row">
             <div class="large-12 columns">
               <label>Mobile No</label>
-              <input type="text" placeholder="Enter Your Mobile No." />
+              <input type="text" placeholder="Enter Your Mobile No." id="mobno" />
             </div>
           </div>
           <div class="row">
             <div class="large-12 columns">
               <label>Query</label>
-              <textarea placeholder="Enter your Query"></textarea>
+              <textarea placeholder="Enter your Query" id="query"></textarea>
             </div>
           </div>
           <div class="row">
-            <center><a href="#" class="small button">Submit</a></center>
+            <center><a class="small button" id="leadForm">Submit</a></center>
           </div>
         </form>
                 </div>
@@ -249,8 +249,10 @@
      
  
  <script src="bower_components/modernizr/modernizr.js"></script>
-    <script src="bower_components/jquery/dist/jquery.min.js"></script>
-  <script src="js/foundation.min.js"></script>
+<script src="http://www.parsecdn.com/js/parse-1.2.12.min.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="js/gun.js"></script>
+   <script src="js/foundation.min.js"></script>
   <script>
     $(document).foundation();
   </script>
