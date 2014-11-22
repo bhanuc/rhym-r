@@ -1,0 +1,14 @@
+{
+    "applications": {
+        "_default": {
+            "link": "mail-gun"
+        }, 
+        "mail-gun": {
+            "applicationId": "btW0MTLsNYLvikmhYt3U4fWOXzKl9SgE30AXh8E9", 
+            "masterKey": "56ZY66X6uft16evAFgm6MStOyCMWbkO6qV6lgCpx"
+        }
+    }, 
+    "global": {
+        "parseVersion": "1.3.1"
+    }
+}
