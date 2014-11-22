@@ -17,7 +17,7 @@ Parse.Cloud.beforeSave("CommentObject", function(request, response) {
 		"Query:\n" + request.object.get("query");
 	
 	Mailgun.sendEmail({
-			to: "bhanu423@gmail.com",
+			to: "info@regrob.com",
 			from: request.object.get("email"),
 			subject: "Query Form  ",
 			text: text
